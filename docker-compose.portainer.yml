@@ -3,7 +3,7 @@ services:
   web:
     image: nginx:alpine
     ports:
-      - "8081:80"
+      - "8095:80"
     volumes:
       # Serve the repo root (index.html + data/ + images/ + videos/) as static files.
       - ./:/usr/share/nginx/html:ro
